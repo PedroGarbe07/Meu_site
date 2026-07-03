@@ -24,7 +24,6 @@ p{
     color: white
 }
 ul{
-    list-style: none;
     padding: 0;
 }
 li{
@@ -58,7 +57,7 @@ a{
     color: darkorange;
     text-align: center;
     padding: 20px;
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     width: 100%;
