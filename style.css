@@ -13,6 +13,9 @@ header{
 h1{
     color: orange;
 }
+h5{
+    color: white;
+}
 .button_header{
     color: darkorange;
 }
