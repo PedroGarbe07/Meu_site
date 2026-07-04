@@ -7,35 +7,37 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 id="titulo">Bem Vindo</h1>
-            <button class="button_header">
-                <a href="sobre_mim.html">Sobre Mim</a>
-            </button>
-            <button class="button_header">
-                <a href="habilidades.html">Habilidades</a>
-            </button>
-            <button class="button_header">
-                <a href="projeto.html">Projetos</a>
-            </button>
-        <h2 id="cumprimentar"></h2>
-        <button id="botao" onclick="mudarTitulo()">Olá, seja bem vindo</button>
-        <img src="C:\Users\pedro\portifolio-dev\imagens\Foto_principal.jpeg" alt="Minha foto">
-            <p>Estou estudando Analise e Desenvolvimento de Sistemas na Universidade Estacio, estou fazendo diversos cursos a parte e com grande auxilio da IA estou evoluindo o meu conhecimento.</p>
-            <p>Hoje trabalho de Jovem Aprendiz no setor de TI em uma Industia no ramo de Embalagens, atualmente 3º maior industria da America Latina, aperfeiçoando meua conhecimento na parte de Infraestrutura, Banco de Dados, Segurança, Logica e Manutenção de Computadores.</p>
-            <p>Meu desejo é ser efetivado na empresa e passar para Auxiliar de TI, terminar minha faculdade e fazer projetos e aplicações para dentro e fora do Brasil.</p>
-        <h3>Meus objetivos atualmente!</h3>
-            <ul>
-                <li>Aprender profundamente HTML</li>
-                <li>Aprender profundamente CSS</li>
-                <li>Aprender profundamente Git</li>
-                <li>Aprender JavaScript</li>
-                <li>Ingles fluente</li>
-                <li>Aprender como trabalhar para fora do Brasil</li>
-            </ul>
+        <header>
+            <h1 id="titulo">Bem Vindo</h1>
+                <a class="button_header" href="sobre_mim.html">Sobre Mim</a>
+                <a class="button_header" href="habilidades.html">Habilidades</a>
+                <a class="button_header" href="projeto.html">Projetos</a>
+        </header>
+        <main>
+            <section id ="apresentacao">
+                <h2 id="cumprimentar"></h2>
+                <img src="C:\Users\pedro\portifolio-dev\imagens\Foto_principal.jpeg" alt="Minha foto">
+                <p>Estou estudando Analise e Desenvolvimento de Sistemas na Universidade Estacio, estou fazendo diversos cursos a parte e com grande auxilio da IA estou evoluindo o meu conhecimento.</p>
+                <p>Hoje trabalho de Jovem Aprendiz no setor de TI em uma Industia no ramo de Embalagens, atualmente 3º maior industria da America Latina, aperfeiçoando meua conhecimento na parte de Infraestrutura, Banco de Dados, Segurança, Logica e Manutenção de Computadores.</p>
+                <p>Meu desejo é ser efetivado na empresa e passar para Auxiliar de TI, terminar minha faculdade e fazer projetos e aplicações para dentro e fora do Brasil.</p>
+            </section>
+            <section>
+                <h3 id="objetivos">Meus objetivos atualmente!</h3>    
+                <ul>
+                    <li>Aprender profundamente HTML</li>
+                    <li>Aprender profundamente CSS</li>
+                    <li>Aprender profundamente Git</li>
+                    <li>Aprender JavaScript</li>
+                    <li>Ingles fluente</li>
+                    <li>Aprender como trabalhar para fora do Brasil</li>
+                </ul>
+            <button id="botao" onclick="mudarTitulo()">Meu curriculo</button>
+            </section>
+        </main>
         <footer class ="footer">
-            <p>Desenvolvido por Pedro Garbe ©️ 2026</p>
-            <a href="https://github.com/PedroGarbe07" target="_blank">Meu GitHub</a>
+            <p class="text_footer">Desenvolvido por Pedro Garbe ©️ 2026</p>
+            <a class="link_footer" href="https://github.com/PedroGarbe07" target="_blank">Meu GitHub</a>
         </footer>
-        <script src="script.js"></script>
+        <script src="script.js"></script> 
     </body>
 </html>

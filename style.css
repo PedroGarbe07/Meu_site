@@ -1,53 +1,72 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkorange;
-    color: grey;
-    text-align: left;
-    padding: 20px;    
+    background-color: rgb(178, 98, 1);  
+}
+section{
+    margin: 20px;
+}
+header{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
 }
 h1{
+    color: orange;
+}
+.button_header{
     color: darkorange;
-    background-color: black;
-    text-align: center;
-    padding: 20px;
 }
 h2{
     color: white;
-}  
-h3{
-    color: darkorange;
-    background-color: white;
-    border-radius: 8px;
-    text-align: center;
 }
 img{
     display: block;
     margin: 20 px;
     max-width: 100%;
     height: auto;
-}
+} 
 p{
-    color: white
+    color: black;
+    padding: 10px;
+}
+#p.apresentacao{
+    color: black;
+    padding: 10px;
+}
+#objetivos{
+    color: darkorange;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+h3{
+    color: darkorange;
 }
 ul{
-    padding: 0;
+    padding: 10px;
 }
 li{
-    margin: 10px 0;
-    color: white
+    margin: 20px 0;
+    color: black;
 }
 button{
-    background-color: white;
-    color: black;
-    border: none;
+    background-color:rgb(0, 0, 0);
+    color: orange;
+    border:2px solid darkorange;
     padding: 12px 24px;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
     text-align: center;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: darkorange;
+    color: white;
 }
 a{
-    color: darkorange;
+    color: white;
     
 }
 .button_header{
@@ -59,12 +78,23 @@ a{
    text-align: center;
 }
 .footer{
-    background-color: black;
-    color: darkorange;
+    background-color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
     padding: 20px;
     position: static;
     bottom: 0;
     left: 0;
     width: 100%;
+}
+.text_habilidades{
+    color: black;
+}
+.text_footer{
+    color: white;
+    text-decoration: none;
+}
+.link_footer{
+    color: darkorange;
+    text-decoration: none;
 }
