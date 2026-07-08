@@ -1,104 +1,133 @@
 body{
+    background-color: rgb(158, 102, 33);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(178, 98, 1);  
-}
-section{
-    margin: 20px;
 }
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.header{
     text-align: center;
+    padding: 10px;
 }
-h1{
-    color: orange;
+.header_links{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
-h5{
-    color: white;
+#titulo{
+    color: darkorange;
 }
 .button_header{
+    background-color: rgb(0, 0, 0);
+    color: darkorange;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid darkorange;
+}
+.button_header:hover{
+    background-color: darkorange;
+    color: black;
+    transition: 0,2;
+}
+#apresentacao{
+    gap:100px;
+    padding: 20px;
+}
+#cumprimentar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+#initial_text{
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid orange;
+    border-radius: 16px;
+    color: black;
+}
+#initial_text:hover{
+    background-color: darkorange;
+    border-color: white;
+    color: white;
+}
+img{
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+    border: 5px solid orange;
+}
+img:hover{
+    background-color: rgb(255, 140, 0, 0.5);
+    color: white;
+    border: 5px solid white;
+}
+.objetivos{
+    color :black;
+    margin: 20px;
+    gap: 20px
+}
+#objetivos{
+    background-color: black;
+    color: darkorange;
+    border: 5px solid orange;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: darkorange;
+    border: 3px solid orange;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    gap: 50px;
+}
+button:hover{
+    background-color: rgb(255, 140, 0);
+    color: white;
+    border: 3px solid white;
+}
+h1{
     color: darkorange;
 }
 h2{
     color: white;
 }
-img{
-    display: block;
-    margin: 20 px;
-    max-width: 100%;
-    height: auto;
-    width: 250px;
-} 
+h3{
+    color: orange
+}
+h5{
+    color: white;
+}
 p{
     color: black;
-    padding: 10px;
 }
-#p.apresentacao{
-    color: black;
-    padding: 10px;
-}
-#objetivos{
-    color: darkorange;
+footer{
     background-color: rgb(0, 0, 0);
-    border-radius: 8px;
-    text-align: center;
-    padding: 10px;
-}
-h3{
-    color: darkorange;
-}
-ul{
-    padding: 10px;
-}
-li{
-    margin: 20px 0;
-    color: black;
-}
-button{
-    background-color:rgb(0, 0, 0);
-    color: orange;
-    border:2px solid darkorange;
-    padding: 12px 24px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-button:hover{
-    background-color: darkorange;
-    color: white;
-}
-a{
-    color: white;
-    
-}
-.button_header{
-   background-color: black;
-   color: darkorange;
-   padding: 12px 24px;
-   text-decoration: none;
-   border-radius: none;
-   text-align: center;
-}
-.footer{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
     padding: 20px;
-    position: static;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-.text_habilidades{
-    color: black;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
 }
 .text_footer{
     color: white;
-    text-decoration: none;
 }
 .link_footer{
     color: darkorange;
-    text-decoration: none;
 }
