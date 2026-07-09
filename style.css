@@ -11,6 +11,7 @@ header{
 .header{
     text-align: center;
     padding: 10px;
+    color: white;
 }
 .header_links{
     display: flex;
@@ -27,11 +28,11 @@ header{
     text-decoration: none;
     border-radius: 5px;
     border: 1px solid darkorange;
+    transition: 0.2s;
 }
 .button_header:hover{
     background-color: darkorange;
     color: black;
-    transition: 0,2;
 }
 #apresentacao{
     gap:100px;
@@ -56,6 +57,7 @@ header{
     border: 5px solid orange;
     border-radius: 16px;
     color: black;
+    transition: 0.2s;
 }
 #initial_text:hover{
     background-color: darkorange;
@@ -74,14 +76,16 @@ img:hover{
     border: 5px solid white;
 }
 .objetivos{
+    display: flex;
+    justify-content:left;
     color :black;
     margin: 20px;
-    gap: 20px
+    gap: 50px
 }
 #objetivos{
     background-color: black;
     color: darkorange;
-    border: 5px solid orange;
+    border: 2px solid orange;
     border-radius: 25px;
     margin: 10px;
     padding: 10px;
@@ -91,6 +95,9 @@ img:hover{
     margin: 20px;
     padding: auto;
     gap: 50px;
+}
+.h2_titulo{
+    color: white;
 }
 #titulo_projetos{
     background-color: black;
@@ -114,13 +121,39 @@ img:hover{
     Padding: 20px;
     Border: 5px solid orange;
     background-color: rgb(158, 102, 33);
-    border-radius: 12px;
-    Transition: 0.5;
+    color: black;
+    border-radius: 25px;
+    Transition: 0.5s;
     text-align: center;
 }
 .card:hover{
     Border: 5px solid black;
-    background-color: gray;
+    background-color: white;
+    color: orange
+}
+.card img:hover{
+    border: 5px solid black;
+}
+.button_card{
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    color: darkorange;
+    border: 3px solid orange;
+    border-radius: 25px;
+    cursor: pointer;
+    gap: 50px;
+    transition: 0.2s;
+}
+.button_card:hover{
+    background-color: rgb(255, 140, 0);
+    color: white;
+    border: 3px solid white;
+}
+#footer_projetos a{
+    color: black;
+}
+#footer_projetos a:hover{
+    color: orange;
 }
 button{
     padding: 20px;
@@ -131,32 +164,18 @@ button{
     border-radius: 25px;
     cursor: pointer;
     gap: 50px;
+    transition: 0.2s;
 }
 button:hover{
     background-color: rgb(255, 140, 0);
     color: white;
     border: 3px solid white;
 }
-h1{
-    color: darkorange;
-}
-h2{
-    color: white;
-}
-h3{
-    color: orange
-}
-h5{
-    color: white;
-}
-p{
-    color: black;
-}
-a{
-    color: white;
-}
-a:hover{
-    color: black;
+.sobre{
+    margin: 20px;
+    padding: auto;
+    text-align: start;
+    gap: 20px;
 }
 footer{
     background-color: rgb(0, 0, 0);
@@ -166,11 +185,18 @@ footer{
     gap: 50px;
     text-align: center;
 }
+.habilidades{
+    margin: 20px;
+    gap: 25px;
+}
 .text_footer{
     color: white;
 }
 .link_footer{
     color: darkorange;
+}
+.link_footer:hover{
+    color:white;
 }
 @media (max-width: 768px) {
     Body{
