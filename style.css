@@ -198,11 +198,34 @@ footer{
 .link_footer:hover{
     color:white;
 }
-@media (max-width: 768px) {
-    Body{
-       Max-width: 50%;
+@media (max-width: 768px){
+
+    body{
+        padding: 10px;
     }
-    Img{
-        Max-width: 50%;
+
+    h1{
+        font-size: 28px;
     }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .projetos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    .button_header{
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
 }
