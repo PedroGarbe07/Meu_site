@@ -6,6 +6,7 @@ header{
     background-color: rgb(0, 0, 0);
     padding: 20px;
     margin-bottom: 10px;
+    justify-content: start;
     align-items: center;
 }
 .header{
@@ -28,9 +29,10 @@ header{
     text-decoration: none;
     border-radius: 5px;
     border: 1px solid darkorange;
-    transition: 0.2s;
+    transition: all 0.2s;
 }
 .button_header:hover{
+    transform: scale(1.05);
     background-color: darkorange;
     color: black;
 }
@@ -54,12 +56,13 @@ header{
 #initial_text{
     padding: 10px;
     margin: 20px;
-    border: 5px solid orange;
+    border: 3px solid orange;
     border-radius: 16px;
     color: black;
-    transition: 0.2s;
+    transition: all 0.2s;
 }
 #initial_text:hover{
+    transform: scale(1.05);
     background-color: darkorange;
     border-color: white;
     color: white;
@@ -69,11 +72,14 @@ img{
     height: auto;
     border-radius: 50px;
     border: 5px solid orange;
+    transition: all 0.2s;
 }
 img:hover{
+    transform: scale(1.05);
     background-color: rgb(255, 140, 0, 0.5);
     color: white;
     border: 5px solid white;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.5);
 }
 .objetivos{
     display: flex;
@@ -98,6 +104,7 @@ img:hover{
 }
 .h2_titulo{
     color: white;
+    margin: 50px;
 }
 #titulo_projetos{
     background-color: black;
@@ -123,7 +130,7 @@ img:hover{
     background-color: rgb(158, 102, 33);
     color: white;
     border-radius: 25px;
-    Transition: 0.5s;
+    Transition: all 0.5s;
     text-align: center;
 }
 .card:hover{
@@ -135,6 +142,7 @@ img:hover{
 }
 .card img:hover{
     border: 5px solid black;
+    transform: scale(1.05);
 }
 .button_card{
     padding: 20px;
@@ -144,15 +152,17 @@ img:hover{
     border-radius: 25px;
     cursor: pointer;
     gap: 50px;
-    transition: 0.2s;
+    transition: all 0.2s;
 }
 .button_card:hover{
     background-color: rgb(255, 140, 0);
     color: white;
     border: 3px solid white;
+    transform: scale(1.05);
 }
 #footer_projetos a{
     color: black;
+    transition: all 0.2s;
 }
 #footer_projetos a:hover{
     color: orange;
@@ -166,24 +176,41 @@ button{
     border-radius: 25px;
     cursor: pointer;
     gap: 50px;
-    transition: 0.2s;
+    transition: all 0.2s;
 }
 button:hover{
     background-color: rgb(255, 140, 0);
     color: white;
     border: 3px solid white;
+    transform: scale(1.05);
 }
 .sobre{
+    display: flex;
+    flex-direction: column;
     margin: 20px;
-    padding: auto;
     text-align: start;
-    gap: 20px;
+    gap: 10px;
+}
+.sobre p{
+    padding: 10px;
+    border: 3px solid orange;
+    border-radius: 16px;
+    color: black;
+    transition: all 0.2s;
+}
+.sobre p:hover{
+    border: 3px solid white;
+    background-color: darkorange;
+    color: white;
+    transform: scale(1.02);
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.5);
 }
 footer{
     background-color: rgb(0, 0, 0);
     padding: 20px;
     margin-bottom: 10px;
     align-items: center;
+    justify-content: end;
     gap: 50px;
     text-align: center;
 }
@@ -196,6 +223,7 @@ footer{
 }
 .link_footer{
     color: darkorange;
+    transition: all 0.1s;
 }
 .link_footer:hover{
     color:white;
