@@ -237,7 +237,15 @@ footer{
     }
 
     h1{
+        font-size: 36px;
+    }
+    
+    h2{
         font-size: 28px;
+    }
+
+    p{
+        font-size: 20px;
     }
 
     .apresentacao{
@@ -245,7 +253,7 @@ footer{
     }
 
     img{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 
