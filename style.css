@@ -3,6 +3,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    position: sticky;
+    top: 0;
     background-color: rgb(0, 0, 0);
     padding: 20px;
     margin-bottom: 10px;
@@ -185,6 +187,28 @@ button:hover{
     color: white;
     border: 3px solid white;
     transform: scale(1.05);
+}
+#botao{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 25px;
+
+    transition: .3s;
+}
+#botao:hover{
+    color:white;
 }
 .sobre{
     display: flex;

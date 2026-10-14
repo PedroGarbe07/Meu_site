@@ -17,7 +17,7 @@ if (idade_usuario <= 22) {
     alert ("Olá " + nome_usuario + ", eu sou o Pedro Garbe Desenvolvedor Web, aproveite meu site!");
 }
 function mudarTitulo() {
-    document.getElementById("botao").textContent = "Curriculo baixado!";
+    document.getElementById("curriculo").textContent = "Curriculo baixado!";
     alert ("Aqui está o meu curriculo, " + nome_usuario + ", espero que goste!");
 }
 
